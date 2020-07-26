@@ -1,3 +1,5 @@
+FROM node:latest
+
 WORKDIR /usr/mynodeapp 
 
 COPY ./ ./
